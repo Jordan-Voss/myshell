@@ -1,0 +1,37 @@
+Jordan Voss 17327513
+name:
+myshell - shell written by Jordan Voss
+
+running the shell:
+in terminal type in
+'python3 myshell.py'
+to run the shell. If you desire input/output file(s) and/or arguments
+include these in the command line.
+
+the commands:
+type '?' or 'help' for help
+'cd <directory>' - changes the current default directory to <directory>. If there is no <directory> argument print the current directory.
+'clr' - clear the screen.
+'dir <directory>'- list the contents of directory <directory>.
+'environ' - list all the environment strings
+'echo <comment>' - display <comment> on the display followed by a new line.
+'help' - display the user manual.
+'pause' - pause operation of the shell until the Enter key is pressed.
+'quit' - exits the shell.
+
+Environment concepts:
+The term environment refers to the environment in which a user runs application software. An environment consists of a user interface
+provided by an applications manager and usually a Programming interface (API) to the applications manager.
+
+Output redirection:
+the output from a command is normally intended for standard output, e.g. printed on the screen in front of you.
+However, with output redirection you can change the location of where the output of the command goes.
+For example, typing in myshell.py > filename.txt will create the file filename.txt if it does not already exist
+and if the file exists and contains data already, then all data will be lost.
+using myshell.py >> filename.txt will create a file called filename.txt if it does not already exist and append
+to it if it exists already.
+
+Background Process:
+a background process is one that is run behind the scenes and cannot be seen by the user, e.g.  logging, system monitoring, scheduling.
+After the creation, the Background Process (also known as a child process) will run on its own course for performing the task independent
+of the control process, therefore, the control process is free of performing other designated task.
